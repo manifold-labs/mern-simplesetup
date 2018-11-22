@@ -10,13 +10,14 @@ A simple application with Webpack, Babel, and Nodemon configuration to check dev
 3. MongoDB (3.6.3)
 
 ####  How to run this code
-1. Make sure MongoDB is running on your system 
-2. Clone this repository
-3. Open command line in the cloned folder, 
+1. Clone this repository.
+2. Ensure a MongoDB service is running.
+3. If the environment is hosted (e.g. AWS EC2), ensure the firewall rules allow TCP connections on port 3000.
+4. Open command line in the cloned folder:
    - To install dependencies, run ```  npm install  ```
    - To run the application for development, run ```  npm run development  ```
-4. Open [localhost:3000](http://localhost:3000/) in the browser
----- 
+5. Open `localhost:3000` (if on a local machine) or `public_ip:3000` (if hosted) in the browser.
+----
 ### More applications built using the MERN stack
 
 * [MERN Skeleton](https://github.com/shamahoque/mern-skeleton)
@@ -38,4 +39,3 @@ This book guides you through preparing the development environment for MERN stac
 While learning to set up the stack and developing a diverse range of applications with this book, you will grasp the inner workings of the MERN stack, extend its capabilities for complex features, and gain actionable knowledge of how to prepare MERN-based applications to meet the growing demands of real-world web applications.
 
 ----
- 
